@@ -1,5 +1,8 @@
 import romans
 
-roman_number = input('Enter a roman numeral: ')
+roman_number = input('Enter a roman numeral or integer : ')
 
-print('*', romans.roman_number_to_integer(roman_number), '*')
+print('*', romans.RomanNumber(roman_number), '*')
+
+
+
